@@ -1,7 +1,4 @@
-<% flash.each do |key, value|%>
-  <p>infomation:<%= key %></p>
-  <p>message   :<%= value %></p>
-<% end %>
+
 <%= form_with(model: prototype, local: true) do |f|%>
   <div class="field">
     <%= f.label :title, "プロトタイプの名称" %><br />
